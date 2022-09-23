@@ -15,6 +15,6 @@ void translate(circle* c, const point* p) {
 //ansver to exercise 6.d
 }
 
-//dehfeuhj
+//dehfeuhj7
 
 
