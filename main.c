@@ -24,6 +24,8 @@ int main(void) {
 
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
+	
+	// Getting an intput, and asserting that it is not negative.
 	printf("\nAngiv et tal:\n");
 	scanf("%d", &n);
 	assert(n>0);
@@ -31,6 +33,7 @@ int main(void) {
 
 	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
 
+	// Inputting the squence to the size inputted before.
 	printf("Angiv tal:\n");
 	for(int o = 0; o < n; o++)
 	{

@@ -5,6 +5,7 @@
 
 void fiveCircles(circle c[]) {
 
+//creating an array of 5 circles.
 for(int i = 0; i < 5; i++)		
 {
 	c[i].r = i;
@@ -14,6 +15,7 @@ for(int i = 0; i < 5; i++)
 
 }
 
+// Checking if the circle is valid.
 bool circleIsValid(const circle * c) {
 switch ((*c).r > 0)
 {
@@ -29,6 +31,7 @@ default:
 	return 0;
 }
 
+// Adding a pointer coordinates to a circles coordinates.
 void translate(circle* c, const point* p) {
 
 (*c).p.x += (*p).x;
